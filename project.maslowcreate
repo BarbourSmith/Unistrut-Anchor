@@ -27,8 +27,8 @@
         {
             "atomType": "Molecule",
             "name": "Unistrut Profile",
-            "x": 0.05051244509516837,
-            "y": 0.3244274809160305,
+            "x": 0.05197657393850659,
+            "y": 0.31679389312977096,
             "uniqueID": 852809,
             "ioValues": [],
             "topLevel": false,
@@ -67,7 +67,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 10.5
                         }
                     ]
                 },
@@ -446,6 +446,14 @@
                     ]
                 },
                 {
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.4882869692532943,
+                    "y": 0.7595419847328244,
+                    "uniqueID": 226318,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.5475841874084919,
@@ -479,7 +487,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 4.5
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -854,8 +862,8 @@
         {
             "atomType": "Molecule",
             "name": "Profile Tester",
-            "x": 0.3660322108345534,
-            "y": 0.2099236641221374,
+            "x": 0.36090775988286966,
+            "y": 0.183206106870229,
             "uniqueID": 973146,
             "ioValues": [
                 {
@@ -1084,7 +1092,7 @@
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 2",
+                    "name": "3D shape 3",
                     "ioValue": 10
                 }
             ]
@@ -1106,19 +1114,19 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -30
+                    "ioValue": -14
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 10
+                    "ioValue": 12
                 }
             ]
         },
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.09150805270863835,
-            "y": 0.767175572519084,
+            "x": 0.09077598828696926,
+            "y": 0.7557251908396946,
             "uniqueID": 152325,
             "ioValues": [],
             "topLevel": false,
@@ -1136,7 +1144,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 80
+                            "ioValue": 82
                         }
                     ]
                 },
@@ -1288,15 +1296,15 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 27
+                    "ioValue": 29
                 }
             ]
         },
         {
             "atomType": "Molecule",
             "name": "Pivot",
-            "x": 0.2503660322108346,
-            "y": 0.8511450381679388,
+            "x": 0.24963396778916544,
+            "y": 0.8778625954198472,
             "uniqueID": 806570,
             "ioValues": [],
             "topLevel": false,
@@ -1329,8 +1337,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shoulder Bolt",
-                    "x": 0.07174231332357248,
-                    "y": 0.33587786259541985,
+                    "x": 0.07686676427525622,
+                    "y": 0.3511450381679389,
                     "uniqueID": 810095,
                     "ioValues": [],
                     "topLevel": false,
@@ -1649,12 +1657,29 @@
                         {
                             "atomType": "Molecule",
                             "name": "M6 Nut",
-                            "x": 0.16544655929721816,
-                            "y": 0.7519083969465649,
+                            "x": 0.1617862371888726,
+                            "y": 0.7557251908396946,
                             "uniqueID": 579656,
                             "ioValues": [],
                             "topLevel": false,
                             "allAtoms": [
+                                {
+                                    "atomType": "RegularPolygon",
+                                    "name": "RegularPolygon",
+                                    "x": 0.15666178623718888,
+                                    "y": 0.3244274809160305,
+                                    "uniqueID": 232907,
+                                    "ioValues": [
+                                        {
+                                            "name": "number of sides",
+                                            "ioValue": 6
+                                        },
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 11.5
+                                        }
+                                    ]
+                                },
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
@@ -1669,23 +1694,6 @@
                                         {
                                             "name": "height",
                                             "ioValue": 5
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "RegularPolygon",
-                                    "name": "RegularPolygon",
-                                    "x": 0.17276720351390923,
-                                    "y": 0.45801526717557256,
-                                    "uniqueID": 232907,
-                                    "ioValues": [
-                                        {
-                                            "name": "number of sides",
-                                            "ioValue": 6
-                                        },
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 11.5
                                         }
                                     ]
                                 },
@@ -1712,11 +1720,28 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "atoms/131616/806570/810095/579656/232907RegularPolygon"
+                                            "ioValue": "atoms/131616/806570/810095/579656/764402RegularPolygon"
                                         },
                                         {
                                             "name": "height",
                                             "ioValue": -50
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "RegularPolygon",
+                                    "name": "RegularPolygon",
+                                    "x": 0.16105417276720352,
+                                    "y": 0.7519083969465649,
+                                    "uniqueID": 764402,
+                                    "ioValues": [
+                                        {
+                                            "name": "number of sides",
+                                            "ioValue": 6
+                                        },
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 12
                                         }
                                     ]
                                 },
@@ -1791,13 +1816,6 @@
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": 981275,
-                                    "ap2ID": 904979
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
                                     "ap1ID": 232907,
                                     "ap2ID": 981275
                                 },
@@ -1805,8 +1823,8 @@
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": 232907,
-                                    "ap2ID": 819771
+                                    "ap1ID": 981275,
+                                    "ap2ID": 904979
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1821,6 +1839,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": 819771,
                                     "ap2ID": 399803
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 764402,
+                                    "ap2ID": 819771
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -2549,7 +2574,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
+            "ap2Name": "3D shape 3",
             "ap2Primary": false,
             "ap1ID": 557539,
             "ap2ID": 694201
