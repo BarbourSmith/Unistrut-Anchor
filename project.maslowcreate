@@ -61,13 +61,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.06661786237188873,
-                    "y": 0.3320610687022901,
+                    "x": 0.06442166910688141,
+                    "y": 0.37022900763358774,
                     "uniqueID": 161614,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10.5
+                            "ioValue": 11.5
                         }
                     ]
                 },
@@ -194,7 +194,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 27.8
+                            "ioValue": 28.8
                         },
                         {
                             "name": "y length",
@@ -446,14 +446,6 @@
                     ]
                 },
                 {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.4882869692532943,
-                    "y": 0.7595419847328244,
-                    "uniqueID": 226318,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.5475841874084919,
@@ -487,7 +479,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 4
+                            "ioValue": 3
                         }
                     ]
                 },
