@@ -215,7 +215,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0.29
+                            "ioValue": -1
                         },
                         {
                             "name": "yDist",
@@ -479,7 +479,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 3
+                            "ioValue": 4
                         }
                     ]
                 },
