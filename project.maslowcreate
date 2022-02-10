@@ -20,15 +20,15 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 1000
+                    "ioValue": 100
                 }
             ]
         },
         {
             "atomType": "Molecule",
             "name": "Unistrut Profile",
-            "x": 0.05197657393850659,
-            "y": 0.31679389312977096,
+            "x": 0.05627705627705627,
+            "y": 0.31213872832369943,
             "uniqueID": 852809,
             "ioValues": [],
             "topLevel": false,
@@ -855,8 +855,8 @@
         {
             "atomType": "Molecule",
             "name": "Profile Tester",
-            "x": 0.36177248677248675,
-            "y": 0.16473988439306358,
+            "x": 0.3645021645021645,
+            "y": 0.17052023121387283,
             "uniqueID": 973146,
             "ioValues": [
                 {
