@@ -44,8 +44,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.21156661786237188,
-                    "y": 0.24045801526717556,
+                    "x": 0.2173160173160173,
+                    "y": 0.24855491329479767,
                     "uniqueID": 119007,
                     "ioValues": [
                         {
@@ -58,7 +58,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 16.5
+                            "ioValue": 16
                         },
                         {
                             "name": "zDist",
@@ -151,7 +151,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -16.5
+                            "ioValue": -16
                         },
                         {
                             "name": "zDist",
@@ -277,7 +277,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 16.5
+                            "ioValue": 16
                         },
                         {
                             "name": "zDist",
@@ -370,7 +370,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -32.9
+                            "ioValue": -32
                         },
                         {
                             "name": "zDist",
