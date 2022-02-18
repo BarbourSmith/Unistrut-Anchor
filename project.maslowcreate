@@ -1700,35 +1700,10 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.20863836017569548,
-                    "y": 0.2595419847328244,
-                    "uniqueID": 636558,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/131616/806570/810095Molecule"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": -6
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Shoulder Bolt",
-                    "x": 0.07686676427525622,
-                    "y": 0.3511450381679389,
+                    "x": 0.08068783068783068,
+                    "y": 0.32,
                     "uniqueID": 810095,
                     "ioValues": [],
                     "topLevel": false,
@@ -1768,7 +1743,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 13
+                                            "ioValue": 14
                                         }
                                     ]
                                 },
@@ -1844,7 +1819,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 8
+                                            "ioValue": 8.8
                                         }
                                     ]
                                 },
@@ -1865,13 +1840,13 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.11420204978038066,
-                                    "y": 0.8015267175572519,
+                                    "x": 0.11772486772486772,
+                                    "y": 0.8092307692307692,
                                     "uniqueID": 273026,
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 6
+                                            "ioValue": 6.8
                                         }
                                     ]
                                 },
@@ -2057,8 +2032,8 @@
                                 {
                                     "atomType": "RegularPolygon",
                                     "name": "RegularPolygon",
-                                    "x": 0.15666178623718888,
-                                    "y": 0.3244274809160305,
+                                    "x": 0.16600529100529102,
+                                    "y": 0.3507692307692307,
                                     "uniqueID": 232907,
                                     "ioValues": [
                                         {
@@ -2067,7 +2042,7 @@
                                         },
                                         {
                                             "name": "diameter",
-                                            "ioValue": 11.5
+                                            "ioValue": 11.2
                                         }
                                     ]
                                 },
@@ -2311,6 +2286,31 @@
                     "fileTypeVersion": 1,
                     "simplify": false,
                     "unitsIndex": 0
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.20863836017569548,
+                    "y": 0.2595419847328244,
+                    "uniqueID": 636558,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/131616/806570/810095Molecule"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -6
+                        }
+                    ]
                 },
                 {
                     "atomType": "Group",
@@ -2750,18 +2750,18 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 636558,
-                    "ap2ID": 781852
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 810095,
                     "ap2ID": 636558
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 636558,
+                    "ap2ID": 781852
                 },
                 {
                     "ap1Name": "geometry",
@@ -2785,8 +2785,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.6808199121522694,
-            "y": 0.648854961832061,
+            "x": 0.671957671957672,
+            "y": 0.6584615384615384,
             "uniqueID": 882101,
             "ioValues": [
                 {
