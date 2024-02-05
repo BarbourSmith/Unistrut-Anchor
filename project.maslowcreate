@@ -1060,8 +1060,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.3177489177489177,
-            "y": 0.3583815028901734,
+            "x": 0.3187830687830688,
+            "y": 0.3875,
             "uniqueID": 281555,
             "ioValues": [
                 {
@@ -1693,8 +1693,8 @@
         {
             "atomType": "Molecule",
             "name": "Pivot",
-            "x": 0.2533068783068783,
-            "y": 0.84375,
+            "x": 0.255952380952381,
+            "y": 0.86875,
             "uniqueID": 806570,
             "ioValues": [],
             "topLevel": false,
@@ -1711,8 +1711,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "M8 Shoulder Bolt",
-                            "x": 0.15739385065885797,
-                            "y": 0.3473282442748092,
+                            "x": 0.1554232804232804,
+                            "y": 0.37187499999999996,
                             "uniqueID": 870939,
                             "ioValues": [],
                             "topLevel": false,
@@ -1743,7 +1743,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 14
+                                            "ioValue": 22.375
                                         }
                                     ]
                                 },
@@ -1794,6 +1794,19 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.11441798941798942,
+                                    "y": 0.584375,
+                                    "uniqueID": 652065,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 10.1
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
                                     "x": 0.2547584187408492,
@@ -1807,19 +1820,6 @@
                                         {
                                             "name": "height",
                                             "ioValue": 25
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "Circle",
-                                    "name": "Circle",
-                                    "x": 0.11127379209370425,
-                                    "y": 0.599236641221374,
-                                    "uniqueID": 652065,
-                                    "ioValues": [
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 8.8
                                         }
                                     ]
                                 },
@@ -1840,13 +1840,13 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.11772486772486772,
-                                    "y": 0.8092307692307692,
+                                    "x": 0.11507936507936507,
+                                    "y": 0.784375,
                                     "uniqueID": 273026,
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 6.8
+                                            "ioValue": 10.1
                                         }
                                     ]
                                 },
@@ -1933,17 +1933,17 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 2",
-                                    "ap2Primary": false,
-                                    "ap1ID": 882759,
-                                    "ap2ID": 992316
-                                },
-                                {
-                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 652065,
                                     "ap2ID": 882759
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 882759,
+                                    "ap2ID": 992316
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -2022,7 +2022,7 @@
                         },
                         {
                             "atomType": "Molecule",
-                            "name": "M6 Nut",
+                            "name": "M10 Nut",
                             "x": 0.1617862371888726,
                             "y": 0.7557251908396946,
                             "uniqueID": 579656,
@@ -2032,8 +2032,8 @@
                                 {
                                     "atomType": "RegularPolygon",
                                     "name": "RegularPolygon",
-                                    "x": 0.16600529100529102,
-                                    "y": 0.3507692307692307,
+                                    "x": 0.13822751322751323,
+                                    "y": 0.21875,
                                     "uniqueID": 232907,
                                     "ioValues": [
                                         {
@@ -2042,15 +2042,15 @@
                                         },
                                         {
                                             "name": "diameter",
-                                            "ioValue": 11.2
+                                            "ioValue": 20
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.3191800878477306,
-                                    "y": 0.3282442748091603,
+                                    "x": 0.31216931216931215,
+                                    "y": 0.165625,
                                     "uniqueID": 981275,
                                     "ioValues": [
                                         {
@@ -2066,8 +2066,8 @@
                                 {
                                     "atomType": "Color",
                                     "name": "Color",
-                                    "x": 0.47437774524158133,
-                                    "y": 0.37404580152671757,
+                                    "x": 0.4656084656084656,
+                                    "y": 0.15,
                                     "uniqueID": 904979,
                                     "ioValues": [
                                         {
@@ -2078,10 +2078,27 @@
                                     "selectedColorIndex": "18"
                                 },
                                 {
+                                    "atomType": "RegularPolygon",
+                                    "name": "RegularPolygon",
+                                    "x": 0.14814814814814814,
+                                    "y": 0.509375,
+                                    "uniqueID": 764402,
+                                    "ioValues": [
+                                        {
+                                            "name": "number of sides",
+                                            "ioValue": 6
+                                        },
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 20
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.30234260614934116,
-                                    "y": 0.648854961832061,
+                                    "x": 0.30026455026455023,
+                                    "y": 0.45625000000000004,
                                     "uniqueID": 819771,
                                     "ioValues": [
                                         {
@@ -2095,21 +2112,18 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "RegularPolygon",
-                                    "name": "RegularPolygon",
-                                    "x": 0.16105417276720352,
-                                    "y": 0.7519083969465649,
-                                    "uniqueID": 764402,
+                                    "atomType": "Color",
+                                    "name": "Color",
+                                    "x": 0.45965608465608465,
+                                    "y": 0.403125,
+                                    "uniqueID": 399803,
                                     "ioValues": [
                                         {
-                                            "name": "number of sides",
-                                            "ioValue": 6
-                                        },
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 12
+                                            "name": "geometry",
+                                            "ioValue": "source/131616/806570/810095/579656/819771Extrude"
                                         }
-                                    ]
+                                    ],
+                                    "selectedColorIndex": "21"
                                 },
                                 {
                                     "atomType": "Add-BOM-Tag",
@@ -2131,20 +2145,6 @@
                                         "totalNeeded": 1,
                                         "radius": 0.015384615384615385
                                     }
-                                },
-                                {
-                                    "atomType": "Color",
-                                    "name": "Color",
-                                    "x": 0.5183016105417276,
-                                    "y": 0.7786259541984732,
-                                    "uniqueID": 399803,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "source/131616/806570/810095/579656/819771Extrude"
-                                        }
-                                    ],
-                                    "selectedColorIndex": "21"
                                 },
                                 {
                                     "atomType": "Group",
@@ -2203,28 +2203,28 @@
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": 819771,
-                                    "ap2ID": 399803
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
                                     "ap1ID": 764402,
                                     "ap2ID": 819771
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 2",
-                                    "ap2Primary": false,
-                                    "ap1ID": 919986,
-                                    "ap2ID": 566995
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 819771,
+                                    "ap2ID": 399803
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "3D shape 1",
                                     "ap2Primary": false,
                                     "ap1ID": 399803,
+                                    "ap2ID": 566995
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 919986,
                                     "ap2ID": 566995
                                 },
                                 {
@@ -2880,8 +2880,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.6673280423280423,
-            "y": 0.64375,
+            "x": 0.6620370370370371,
+            "y": 0.6375,
             "uniqueID": 882101,
             "ioValues": [
                 {
